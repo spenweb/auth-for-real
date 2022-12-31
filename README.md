@@ -1,4 +1,5 @@
 # Example NextJS app to reproduce Auth0-react beta error
+`isAuthenticated` continues to be `true` even after refresh token is expired and `useRefreshTokensFallback={false}`.
 
 ## Auth0 Setup
 Set up an API with super short token expiration:
